@@ -10,13 +10,15 @@ function nextPosition(current, dice) {
         return dice + 48;
     }
     else if (next == 21) {
-        return dice + 42;
+        // return dice + 42; 
+        return dice + 21; 
     }
     else if (next == 50) {
         return dice + 17;
     }
     else if (next == 71) {
-        return dice + 92;
+        // return dice + 92;
+        return dice + 21;
     }
     else if (next == 80) {
         return dice + 19;
